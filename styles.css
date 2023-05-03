@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 100%;
+    width: 700px;
+    margin: 15px auto;
+}
+
+html {
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .center {
+    text-align: center;
+}
+
+.center #check {
+    margin-right: .5rem;
+}
+
+.checkbox #check, .checkbox p {
+    display: inline-block;
+}
+
+#check {
+   margin-right: 9px;
+}
+
+strong {
+    margin-right: 160px;
+}
+
+
+#email, #phone {
+    width: 92%;
+    padding: 15px;
+}
+
+#email, #phone, #password,
+#lastname, #firstname {
+    margin-top: 15px;
+}
+
+#lastname, #firstname, #password {
+    padding: 15px;
+    width: 42%;
+}
+
+#firstname, .space, .register-button {
+    margin-right: 20px;
+}
+
+#password {
+    margin-bottom: 8px;
+}
+
+p button {
+    background-color: #038cfc;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+#firstname, #lastname, 
+#password, #phone, #email {
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+p a {
+    text-decoration: none;
+}
+
+.register-button {
+    background-color: #038cfc;
+    color: white;
+    width: 47%;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+.SignIn-button {
+    background-color: green;
+    color: white;
+    width: 47%;
+    padding: 15px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+
+@media (max-width: 600px) {
+
+    h1{
+        margin-bottom: 15px;
+    }
+
+    #firstname, #lastname, #password {
+        width: 42%;
+        margin-right: 20px;
+        border-radius: 5px;
+        margin: 0 auto;
+        border: solid 1px #ccc;
+    }
+
+    .center, #email {
+        margin-top: 15px;
+    }
+
+    #email, #phone {
+        width: 91%;
+        margin-top: 15px;
+        border-radius: 5px;
+        border: solid 1px #ccc;
+    }
+}
+
+
