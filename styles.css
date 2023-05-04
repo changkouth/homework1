@@ -25,6 +25,53 @@ h1, .center {
     text-align: center;
 }
 
+
+
+#check {
+   margin-right: 9px;
+   margin-bottom: 10px;
+}
+
+strong {
+    margin-right: 152px;
+}
+
+p button {
+    background-color: #038cfc;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bold;
+    border: none;
+}
+
+p a {
+    text-decoration: none;
+}
+
+
+/* styles for class selectors */
+
+.register-button {
+    background-color: #038cfc;
+    color: white;
+    width: 47%;
+    padding: 15px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+.SignIn-button {
+    background-color: green;
+    color: white;
+    width: 47%;
+    padding: 15px 0;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
 .center #check {
     margin-right: .5rem;
 }
@@ -33,14 +80,8 @@ h1, .center {
     display: inline-block;
 }
 
-#check {
-   margin-right: 9px;
-}
 
-strong {
-    margin-right: 160px;
-}
-
+/* styles for id selectors */
 
 #email, #phone {
     width: 92%;
@@ -65,14 +106,6 @@ strong {
     margin-bottom: 8px;
 }
 
-p button {
-    background-color: #038cfc;
-    color: white;
-    border-radius: 5px;
-    padding: 6px;
-    font-weight: bold;
-    border: none;
-}
 
 #firstname, #lastname, 
 #password, #phone, #email {
@@ -80,34 +113,10 @@ p button {
     border: solid 1px #ccc;
 }
 
-p a {
-    text-decoration: none;
-}
-
-.register-button {
-    background-color: #038cfc;
-    color: white;
-    width: 47%;
-    padding: 15px 0;
-    border-radius: 8px;
-    font-weight: bold;
-    border: none;
-}
-
-.SignIn-button {
-    background-color: green;
-    color: white;
-    width: 47%;
-    padding: 15px 0;
-    border: none;
-    font-weight: bold;
-    border-radius: 8px;
-}
-
 
 @media (max-width: 600px) {
 
-    h1{
+    h1 {
         margin-bottom: 15px;
     }
 

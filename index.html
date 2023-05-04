@@ -14,38 +14,39 @@
     <main>
         <div>
             <h1>Sign Up</h1>
-            <div class="center">
-                <label for="firstname"></label>
-                <input type="text" id="firstname" placeholder="First Name">
-                <label for="firstname"></label>
-                <input type="text" id="lastname" placeholder="Last Name"><br>
-            </div>
-           
-            <div class="center">
-                <label for="tel"></label>
-                <input type="tel" id="phone" placeholder="Mobile No." autocomplete="off"><br>
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Email Address" autocomplete="off"><br>
-            </div>
-
-            <div class="center">
-                <label for="password"></label>
-                <input  class="space" type="text" id="password" placeholder="Password">
-                <label for="password"></label>
-                <input type="text" id="password" placeholder="Confirm Password"><br>
-
-            </div>
-          
-            <div class="checkbox">
-                <input id="check" type="checkbox" name="" value="agree"><strong>I Agree</strong>
-                <p>By clicking <button>Register</button>, you agree to the  <a href="">Terms and Conditions</a> set <br>
-                    out by this site, including our Cookie Use.</p>
-            </div>
-
-            <div class="center">
-                <input class="register-button" type="submit" id="button" value="Register">
-                <input class="SignIn-button" type="submit" id="button" value="Sign In">
-            </div>
+            <form action="" id="signup_form" name="signup_form" method="get">
+                <div class="center">
+                    <label for="firstname"></label>
+                    <input type="text" id="firstname" placeholder="First Name">
+                    <label for="firstname"></label>
+                    <input type="text" id="lastname" placeholder="Last Name"><br>
+                </div>
+               
+                <div class="center">
+                    <label for="tel"></label>
+                    <input type="tel" id="phone" placeholder="Mobile No." autocomplete="off"><br>
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email Address" autocomplete="off"><br>
+                </div>
+    
+                <div class="center">
+                    <label for="password"></label>
+                    <input  class="space" type="password" id="password" placeholder="Password">
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="Confirm Password"><br>
+                </div>
+              
+                <div class="checkbox">
+                    <input id="check" type="checkbox" name="" value="agree"><strong>I Agree</strong>
+                    <p>By clicking <button>Register</button>, you agree to the  <a href="">Terms and Conditions</a> set <br>
+                        out by this site, including our Cookie Use.</p>
+                </div>
+    
+                <div class="center">
+                    <input class="register-button" type="submit" id="button" value="Register">
+                    <input class="SignIn-button" type="submit" id="button" value="Sign In">
+                </div>
+            </form>
         </div>
     </main>
 </body>
